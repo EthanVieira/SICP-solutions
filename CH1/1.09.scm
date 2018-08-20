@@ -3,12 +3,12 @@
 (define (+ a b)
   (if (= a 0)
     b
-    (inc (+ (dec a) b)))
+    (inc (+ (dec a) b))))
 
 ;; The first process is recursive because it generates a (inc (inc (inc (+ ...)))) structure.
 
 (define (+ a b)
-  (if = a 0)
+  (if (= a 0)
     b
     (+ (dec a) (inc b))))
 
