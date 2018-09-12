@@ -1,4 +1,4 @@
-#; SICP Ex. 1.20
+;; SICP Ex. 1.20
 
 ;;Normal-order evaluation:
 
