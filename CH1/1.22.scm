@@ -38,7 +38,7 @@
         (else (search-for-primes (+ 1 start) n))))
 
 
-;; They all run faster than 1 ms, but if you increase the numbers by a factor of n, the time increases by ~ log(n)
+;; They all run faster than 1 ms, but if you increase the numbers by a factor of n, the time increases by ~ sqrt(n)
 
 (search-for-primes 1000 3)
 (search-for-primes 10000 3)
