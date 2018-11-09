@@ -36,7 +36,9 @@
   (fixed-point (next f) guess))
 
 (define (nth-term x n) ;; 4th root has x/y^3 term
-  (lambda (y) (/ x (expt y (- n 1))))
+  (lambda (y) (/ x (expt y (- n 1)))))
 
 (define (nth-root x n)
-  (new-fixed-point (nth-term x n) (repeated average-damp (damp n)) 1))
+  (new-fixed-point (nth-term x n) (repeated average-damp (damp n)) 1.0))
+
+(nth-root 16 4)
