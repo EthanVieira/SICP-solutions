@@ -13,7 +13,7 @@
 
 
 ; source for this box and pointer ASCII: http://community.schemewiki.org/?sicp-ex-2.24
-;  +---+---+  +---+---+
+;     +---+---+  +---+---+
 ;     | * | *-+->| * | / |
 ;     +-+-+---+  +-+-+---+
 ;       |          |
