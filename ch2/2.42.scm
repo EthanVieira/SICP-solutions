@@ -22,7 +22,7 @@
 (define (safe? k positions)
     (let ((x1 (car positions))
           (x2 (caar positions))
-          (x3 ( cadar positions))
+          (x3 (cadar positions))
           (rest (cdr positions)))
       (accumulate (lambda (pos result)
                     (let ((row (car pos))
